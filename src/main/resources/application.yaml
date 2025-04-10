@@ -1,4 +1,4 @@
 spring:
   application:
     name: OLNN
-iris: src\main\resources\iris.csv
+words: src\main\resources\words.csv

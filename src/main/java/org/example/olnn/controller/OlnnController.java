@@ -9,9 +9,10 @@ public class OlnnController {
 
     public OlnnController(FileService fileService) {
         this.fileService = fileService;
+        fileService.readFile();
     }
 
-    private void start(){
-        fileService.readFile();
+    public FileService getFileService() {
+        return fileService;
     }
 }
